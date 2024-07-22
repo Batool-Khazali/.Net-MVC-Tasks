@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "الأقمشة و مستلزمات الخياطة";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle" style="margin:50px">
+        <h1 id="title">الصفحة الرئيسية</h1>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">تواصل معنا</h2>
+            <p>هل تريد شراء قماش من الخارج.؟ ام تريد عرض بضائعك لدينا؟ كل ما عليك التواصل معنا</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Contact", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">انقر هنا &raquo;  </a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">تعرف علينا</h2>
+            <p>تعرف علينا اين بدأنا و ما هي طموحاتنا</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("About", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">انقر هنا  &raquo; </a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">تصفح المعروضات</h2>
+            <p>
+                تسوق ما ترغب من الاقمشة و مستلزمات الخياطة من المتاجر القريبة منك.
+            </p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Products", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">انقر هنا  &raquo; </a></p>
+        </section>
+    </div>
+</main>

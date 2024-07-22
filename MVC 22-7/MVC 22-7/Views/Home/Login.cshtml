@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "تسجيل دخول";
+
+}
+
+<main>
+
+    <h2 id="title">.@ViewBag.Title</h2>
+
+    <p>اهلا و سهلا بعودتك</p>
+
+    <p>لا تملك حساب؟ قم 
+        <a href="@Url.Action("Signup", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">بانشاء حساب جديد</a>
+    </p>
+
+
+</main>

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "انشاء حساب";
+}
+
+<main>
+
+    <h2 id="title">.@ViewBag.Title</h2>
+
+    <p>نرحب بك في عائلتنا</p>
+
+    <p>
+        لديك حساب؟ قم
+        <a href="@Url.Action("Login", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">بالدخول في حسابك</a>
+    </p>
+
+
+</main>
+

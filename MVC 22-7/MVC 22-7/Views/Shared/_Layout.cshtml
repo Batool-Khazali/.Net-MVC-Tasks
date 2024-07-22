@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        body {
+            background-color: #FEFAE0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #FEFAE0 !important;
+        }
+
+        .navbar-nav {
+            align-items: center !important;
+        }
+
+        .navbar-brand {
+            display: block;
+            height: 70px;
+            width: 200px;
+            /*background-image: url(../../Content/images/FLORAL-JACQUARD.jpg);*/
+            background-image: url('../../Content/images/Embroidery Hoop With Fabric And Sewing Needle With Inscription Fancywork Studio Modern Brand Logo.png') !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .nav-link, .navbar-toggler-icon {
+            color: black !important;
+        }
+
+        footer {
+            background-color: #283618;
+            color: #FEFAE0;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #footerImg {
+            height: 70px;
+            width: 200px;
+            overflow: hidden;
+            align-items: center;
+            display: flex;
+            justify-content:center;
+            margin: 10px;
+            background-color: #fefae0;
+        }
+        img {
+            vertical-align: middle;
+            align-self: center;
+            width: 100% !important;
+        }
+
+        main {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm ">
+        <div class="container">
+            @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand d-md-none" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav mx-auto ">
+                    <li>@Html.ActionLink("دخول/تسجيل حساب", "Login", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("من نحن", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand d-none d-md-block" })
+                    <li>@Html.ActionLink("تواصل معنا", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("تصفح الأقمشة", "Products", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <footer>
+        <div id="footerImg">
+        <img src="~/Content/images/Embroidery Hoop With Fabric And Sewing Needle With Inscription Fancywork Studio Modern Brand Logo.png" />
+        </div>
+        <p>&copy; @DateTime.Now.Year - Batool Khazali - MVC test</p>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

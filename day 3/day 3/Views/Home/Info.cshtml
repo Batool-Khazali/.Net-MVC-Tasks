@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "Info";
+}
+
+
+<main>
+    <h2>Your Information</h2>
+    <div>
+        <p>
+            Name : @TempData["fName"] @ViewBag.lName
+        </p>
+    </div>
+    <div>
+        <p>
+            Age : @ViewBag.Age
+        </p>
+    </div>
+    <div>
+        <p>
+            Phone : @ViewBag.Phone
+        </p>
+    </div>
+    <div>
+        <p>
+            Gender : @ViewBag.Gender
+        </p>
+    </div>
+    <div>
+        <p>
+            Languages :
+            @if (ViewBag.Lang != null)
+            {
+                foreach (string l in ViewBag.Lang)
+                {
+                    @l
+                }
+            }
+            else
+            {
+                <span> </span>
+            }
+        </p>
+    </div>
+    <div>
+        <p>
+            City : @ViewBag.City
+        </p>
+    </div>
+    <div>
+        <p>
+            Goals :
+            
+                @if (ViewBag.Goals != null)
+                {
+                    foreach (string c in ViewBag.Goals)
+                    {
+                        @c
+                    }
+
+                }
+                else
+                {
+                    <span> </span>
+                }
+
+        </p>
+    </div>
+
+
+</main>
+
+
+@*<main aria-labelledby="title">
+
+        <div>
+            <p>
+                your name is @TempData["name"]
+            </p>
+            <p>
+                your name is @ViewBag.Name
+            </p>
+        </div>
+        <div>
+            <p>
+                your country is @TempData["country"]
+            </p>
+            <p>
+
+                your country is @ViewBag.Country
+            </p>
+        </div>
+        <div>
+            <p>
+                the message is @TempData["msg"]
+            </p>
+            <p>
+                the advice is @ViewBag.msg
+            </p>
+        </div>
+
+
+    </main>*@
+

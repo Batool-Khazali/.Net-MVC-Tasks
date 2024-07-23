@@ -1,0 +1,18 @@
+﻿/*@font-face {
+    font-family: 'meqalin';
+    src: url('../fonts/meqalin-47640019/meqalin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bongaty';
+    src: url('../fonts/bongaty-17319685/bongaty.ttf') format('truetype');
+}
+*/
+@font-face {
+    font-family: 'draftside regular';
+    src: url('../fonts/draftside-56856079/draftside regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'draftside regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

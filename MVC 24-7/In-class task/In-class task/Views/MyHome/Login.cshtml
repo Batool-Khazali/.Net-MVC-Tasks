@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "تسجيل دخول";
+
+}
+
+<main>
+
+    <h2 id="title">.@ViewBag.Title</h2>
+
+    <p>اهلا و سهلا بعودتك</p>
+
+    @using (Html.BeginForm())
+    {
+
+        <div class="form-group">
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">البريد الالكتروني:</label>
+                <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ادخل بريدك الالكتروني">
+                <small id="emailHelp" class="form-text text-muted">لن يتم مشاركة معلوماتك الشخصية مع جهة خارجية</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">كلمة السر:</label>
+                <input type="password" name="Password" class="form-control" id="exampleInputPassword1" placeholder="كلمة السر">
+            </div>
+            <p>
+                لا تملك حساب؟ قم
+                <a href="@Url.Action("Signup", null, new { area = string.Empty, controller = "Home" }, Request.Url.Scheme)">بانشاء حساب جديد</a>
+            </p>
+            <input type="submit" value="تسجيل دخول" class="btn btn-dark" style="color: #283618" />
+
+        </div>
+    }
+
+</main>

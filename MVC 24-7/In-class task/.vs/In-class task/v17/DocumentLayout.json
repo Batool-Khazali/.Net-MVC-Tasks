@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\controllers\\myhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\controllers\\myhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\views\\myhome\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\views\\myhome\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\views\\myhome\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\views\\myhome\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\views\\myhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\views\\myhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\views\\myhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\views\\myhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\views\\shared\\_mylayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\views\\shared\\_mylayoutpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 24-7\\in-class task\\in-class task\\content\\mystylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{70BBD2CE-9284-4603-8C2A-6DC1CE4B906D}|In-class task\\In-class task.csproj|solutionrelative:in-class task\\content\\mystylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Profile.cshtml",
+              "RelativeDocumentMoniker": "In-class task\\Views\\MyHome\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Profile.cshtml",
+              "RelativeToolTip": "In-class task\\Views\\MyHome\\Profile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T20:07:37.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "In-class task\\Views\\MyHome\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Index.cshtml",
+              "RelativeToolTip": "In-class task\\Views\\MyHome\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T19:01:24.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Contact.cshtml",
+              "RelativeDocumentMoniker": "In-class task\\Views\\MyHome\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Contact.cshtml",
+              "RelativeToolTip": "In-class task\\Views\\MyHome\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T19:00:34.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Login.cshtml",
+              "RelativeDocumentMoniker": "In-class task\\Views\\MyHome\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\MyHome\\Login.cshtml",
+              "RelativeToolTip": "In-class task\\Views\\MyHome\\Login.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T14:17:34.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Controllers\\MyHomeController.cs",
+              "RelativeDocumentMoniker": "In-class task\\Controllers\\MyHomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Controllers\\MyHomeController.cs",
+              "RelativeToolTip": "In-class task\\Controllers\\MyHomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAFMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T13:45:41.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_MyLayoutPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\Shared\\_MyLayoutPage.cshtml",
+              "RelativeDocumentMoniker": "In-class task\\Views\\Shared\\_MyLayoutPage.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Views\\Shared\\_MyLayoutPage.cshtml",
+              "RelativeToolTip": "In-class task\\Views\\Shared\\_MyLayoutPage.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAawCkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T13:46:46.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyStyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Content\\MyStyleSheet.css",
+              "RelativeDocumentMoniker": "In-class task\\Content\\MyStyleSheet.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 24-7\\In-class task\\In-class task\\Content\\MyStyleSheet.css",
+              "RelativeToolTip": "In-class task\\Content\\MyStyleSheet.css",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-24T14:30:26.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

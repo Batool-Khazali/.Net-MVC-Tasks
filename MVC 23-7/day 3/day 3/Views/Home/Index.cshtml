@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <h3>@ViewBag.Message</h3>
+
+    @using (Html.BeginForm())
+    {
+
+
+
+        <table cellpadding="5">
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fName" /></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>@Html.TextBox("lName")</td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="Age" /></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td>@Html.TextBox("Phone", null, new { @type = "number" })</td>
+            </tr>
+
+        </table>
+
+        <div>
+            <label>Gender:</label>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Male" id="Male">
+                <label class="form-check-label" for="Male">
+                    Male
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Female" id="Female">
+                <label class="form-check-label" for="Female">
+                    Female
+                </label>
+            </div>
+        </div>
+
+        <div>
+            <label>Languages:</label>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="HTML/CSS " name="Lang" id="HTML/CSS">
+                <label class="form-check-label" for="HTML/CSS">
+                    HTML/CSS
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="C# " name="Lang" id="C#">
+                <label class="form-check-label" for="C#">
+                    C#
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Python " name="Lang" id="Python">
+                <label class="form-check-label" for="Python">
+                    Python
+                </label>
+            </div>
+        </div>
+        <div>
+            <select class="form-select" aria-label="City:" name="City">
+                <option value="" selected disabled hidden>Select City</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Mafraq">Mafraq</option>
+                <option value="Ajloun">Ajloun</option>
+                <option value="Jarash">Jarash</option>
+            </select>
+        </div>
+
+        <div>
+            <select class="form-select" aria-label="Goals:" name="Goals" multiple>
+                <option value="Learning ">Learning</option>
+                <option value="Job ">Job</option>
+                <option value="Improve ">Improve</option>
+                <option value="Money ">Money</option>
+            </select>
+        </div>
+
+        <br />
+        <input type="submit" value="Submit" />
+
+
+
+
+        @*<table cellpadding="5">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="Name" /></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>@Html.TextBox("Country")</td>
+                </tr>
+            </table>
+            <br />
+            <input type="submit" value="Submit" />*@
+    }
+
+
+</main>

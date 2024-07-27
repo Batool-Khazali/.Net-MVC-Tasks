@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="NewUsers">
+      <EntityTypeMapping TypeName="Model.NewUser">
+        <MappingFragment StoreEntitySet="NewUsers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="Model.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="color" ColumnName="color" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

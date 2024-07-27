@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\controllers\\myhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\controllers\\myhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\content\\mystylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\content\\mystylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\views\\myhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\views\\myhome\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\views\\myhome\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\views\\myhome\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 25-7\\mvc 25-7\\mvc 25-7\\views\\myhome\\productstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68673F8E-DFE7-45BF-8426-E110AF75C555}|MVC 25-7\\MVC 25-7.csproj|solutionrelative:mvc 25-7\\views\\myhome\\productstable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\ProductsTable.cshtml",
+              "RelativeDocumentMoniker": "MVC 25-7\\Views\\MyHome\\ProductsTable.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\ProductsTable.cshtml",
+              "RelativeToolTip": "MVC 25-7\\Views\\MyHome\\ProductsTable.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T16:39:13.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\Login.cshtml",
+              "RelativeDocumentMoniker": "MVC 25-7\\Views\\MyHome\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\Login.cshtml",
+              "RelativeToolTip": "MVC 25-7\\Views\\MyHome\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T16:28:55.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\Products.cshtml",
+              "RelativeDocumentMoniker": "MVC 25-7\\Views\\MyHome\\Products.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\MyHome\\Products.cshtml",
+              "RelativeToolTip": "MVC 25-7\\Views\\MyHome\\Products.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T16:25:23.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Controllers\\MyHomeController.cs",
+              "RelativeDocumentMoniker": "MVC 25-7\\Controllers\\MyHomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Controllers\\MyHomeController.cs",
+              "RelativeToolTip": "MVC 25-7\\Controllers\\MyHomeController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAA5wDoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:20:21.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC 25-7\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC 25-7\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwB0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T11:23:30.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyStyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Content\\MyStyleSheet.css",
+              "RelativeDocumentMoniker": "MVC 25-7\\Content\\MyStyleSheet.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC 25-7\\MVC 25-7\\MVC 25-7\\Content\\MyStyleSheet.css",
+              "RelativeToolTip": "MVC 25-7\\Content\\MyStyleSheet.css",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAqwHUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-27T13:37:12.521Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVC_25_7.Models.Product>
+
+@{
+    ViewBag.Title = "Products";
+
+}
+
+<main>
+
+    <h2>.@ViewBag.Title</h2>
+
+    <p>تسوق ما ترغب من القماش و مستلزمات الخياطة.</p>
+
+    <div class="card-group">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card" style="margin:10px;">
+                    <img class="card-img-top" src="~/Content/Images/@item.image" alt=" " style="min-height:300px;">
+                    <div class="card-body">
+                        <p>@Html.DisplayFor(modelItem => item.name)</p>
+                        <p>@Html.DisplayFor(modelItem => item.type)</p>
+                        <p>@Html.DisplayFor(modelItem => item.price) per meter</p>
+                        <p>
+                            colors:
+                            @foreach (string c in item.color.Split(','))
+                            {
+                                <span class="color-circle" style="background-color: @c; color: @c; border-radius: 50%; width:30px; height:30px;">30</span>
+                            }
+                        </p>
+
+
+
+                    </div>
+                    <div class="card-footer">
+
+                        <input type="button" value="Buy" class="btn" style="color: #283618" />
+
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+
+    <p>
+        <a href="@Url.Action("ProductsTable", null, new { area = string.Empty, controller = "MyHome" }, Request.Url.Scheme)">جدول المنتجات</a>
+    </p>
+
+</main>

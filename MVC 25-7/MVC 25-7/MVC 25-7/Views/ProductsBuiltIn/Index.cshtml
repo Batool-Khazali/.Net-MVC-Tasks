@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<MVC_25_7.Models.Product>
 
 @{
-    ViewBag.Title = "ProductsTable";
+    ViewBag.Title = "Index";
 }
 
-<h2>ProductsTable</h2>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -43,13 +43,17 @@
             </td>
             <td>
 
+
                 @foreach (string c in item.color.Split(','))
                 {
                     <span class="color-circle" style="background-color: @c; color: @c; border-radius: 50%; width:30px; height:30px;">30</span>
                 }
+
             </td>
             <td>
                 <img class="card-img-top" src="~/Content/Images/@item.image" alt=" " style="max-height:80px; max-width:80px;">
+
+                @*@Html.DisplayFor(modelItem => item.image)*@
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.id }) |

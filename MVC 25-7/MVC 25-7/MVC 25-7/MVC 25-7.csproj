@@ -131,6 +131,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\MyHomeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsBuiltInController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -240,6 +241,14 @@
     <Content Include="Views\MyHome\Profile.cshtml" />
     <Content Include="Views\MyHome\Products.cshtml" />
     <Content Include="Views\MyHome\ProductsTable.cshtml" />
+    <Content Include="Views\ProductsBuiltIn\Create.cshtml" />
+    <Content Include="Views\ProductsBuiltIn\Delete.cshtml" />
+    <Content Include="Views\ProductsBuiltIn\Details.cshtml" />
+    <Content Include="Views\ProductsBuiltIn\Edit.cshtml" />
+    <Content Include="Views\ProductsBuiltIn\Index.cshtml" />
+    <Content Include="Views\MyHome\Details.cshtml" />
+    <Content Include="Views\MyHome\Edit.cshtml" />
+    <Content Include="Views\MyHome\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

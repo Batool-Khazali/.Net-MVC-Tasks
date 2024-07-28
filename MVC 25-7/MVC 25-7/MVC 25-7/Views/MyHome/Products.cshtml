@@ -34,8 +34,12 @@
 
                     </div>
                     <div class="card-footer">
+                        @using (Html.BeginForm("Details", "MyHome", new { id = item.id }, FormMethod.Get))
+                        {
+                            <input type="submit" value="Buy" class="btn" style="color: #283618" />
+                        }
 
-                        <input type="button" value="Buy" class="btn" style="color: #283618" />
+                        @*<input type="button" value="Buy" class="btn" style="color: #283618"  />*@
 
                     </div>
                 </div>

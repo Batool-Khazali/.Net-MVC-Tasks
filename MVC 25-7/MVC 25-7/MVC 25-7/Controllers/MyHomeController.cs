@@ -69,6 +69,7 @@ namespace MVC_25_7.Content
 
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Login(NewUser u)
         {
             var query = db.NewUsers.SingleOrDefault(m => m.userName == u.userName && m.password == u.password);
@@ -100,6 +101,7 @@ namespace MVC_25_7.Content
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult signup(NewUser u)
         {
             if (ModelState.IsValid)
@@ -122,5 +124,100 @@ namespace MVC_25_7.Content
         {
             return View();
         }
+
+
+        [HttpGet]
+        public ActionResult Details(int id)
+        {
+            Product NUDetails = db.Products.Find(id);
+
+
+            if (NUDetails == null)
+            {
+                Response.Write("<script>alert('id not found in database')");
+                return HttpNotFound();
+            }
+
+            return View(NUDetails);
+        }
+
+
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            Product NUEditGet = db.Products.Find(id);
+
+
+            if (NUEditGet == null)
+            {
+                Response.Write("<script>alert('id not found in database')");
+                return HttpNotFound();
+            }
+
+
+            return View(NUEditGet);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Product u)
+        {
+            if (ModelState.IsValid)
+            {
+                Product NUEditPost = db.Products.Find(u.id);
+
+                if (NUEditPost == null)
+                {
+                    Response.Write("<script>alert('id not found in database')");
+                    return HttpNotFound();
+                }
+
+                NUEditPost.name = u.name;
+                NUEditPost.price = u.price;
+                NUEditPost.type = u.type;
+                NUEditPost.color = u.color;
+                NUEditPost.image = u.image;
+
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View();
+        }
+
+
+
+
+
+        [HttpGet]
+        public ActionResult Delete(Product u)
+        {
+            Product NUDelete = db.Products.Find(u.id);
+            if (NUDelete == null)
+            {
+                Response.Write("<script>alert('id not found in database')");
+                return HttpNotFound();
+            }
+
+            return View(NUDelete);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id)
+        {
+            Product NUDeleteConfirm = db.Products.Find(id);
+            if (NUDeleteConfirm == null)
+            {
+                Response.Write("<script>alert('id not found in database')");
+                return HttpNotFound();
+            }
+
+            db.Products.Remove(NUDeleteConfirm);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

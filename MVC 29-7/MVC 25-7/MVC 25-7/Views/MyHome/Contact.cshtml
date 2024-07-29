@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "تواصلوا معنا";
+}
+
+
+
+<main aria-labelledby="title">
+    <h2 id="title">.@ViewBag.Title</h2>
+    <p>للاستفسار و معرفة المستجدات تواصلو معنا</p>
+
+    @using (Html.BeginForm())
+    {
+        <table cellpadding="5">
+            <tr>
+                <td>الاسم الاول:</td>
+                <td><input type="text" name="fName" /></td>
+            </tr>
+            <tr>
+                <td>اسم العائلة:</td>
+                <td>@Html.TextBox("lName")</td>
+            </tr>
+            <tr>
+                <td>الايميل:</td>
+                <td><input type="text" name="Email" /></td>
+            </tr>
+            <tr>
+                <td>رقم الهاتف:</td>
+                <td>@Html.TextBox("Phone", null, new { @type = "number" })</td>
+            </tr>
+
+        </table>
+
+        <div>
+            <label>الجنس:</label>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="Male" id="Male">
+                <label class="form-check-label" for="Male">
+                    ذكر
+                </label>
+            </div>
+            <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" value="أنثى" id="Female">
+                <label class="form-check-label" for="Female">
+                    أنثى
+                </label>
+            </div>
+        </div>
+
+        <input type="submit" value="إدخال" />
+
+    }
+    <br /><br />
+
+    @if (IsPost)
+    {
+        <div>
+            <h2>المعلومات الشخصية</h2>
+            <div>
+                <p>
+                    الاسم : @TempData["name"]
+                </p>
+            </div>
+            <div>
+                <p>
+                    الايميل : @TempData["email"]
+                </p>
+            </div>
+            <div>
+                <p>
+                    رقم الهاتف : @TempData["phone"]
+                </p>
+            </div>
+            <div>
+                <p>
+                    الجنس : @TempData["gender"]
+                </p>
+            </div>
+        </div>
+    }
+
+
+</main>

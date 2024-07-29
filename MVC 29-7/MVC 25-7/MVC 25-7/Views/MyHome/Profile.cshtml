@@ -1,0 +1,51 @@
+﻿@model MVC_25_7.Models.NewUser
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<main>
+
+    <h1>صفحة المستخدم</h1>
+
+
+    <div class="form-group">
+
+        <div class="form-group">
+            <p>
+                @Html.Label("fName", "الاسم") : @Html.DisplayFor(model => model.fName, new { htmlAttributes = new { @class = "form-control" } }) @Html.DisplayFor(model => model.lName, new { htmlAttributes = new { @class = "form-control" } })
+            </p>
+        </div>
+        <div class="form-group">
+            <p>
+                @Html.Label("userName", "اسم المستخدم") : @Html.DisplayFor(model => model.userName, new { htmlAttributes = new { @class = "form-control" } })
+            </p>
+        </div>
+        <div class="form-group">
+            <p>
+                @Html.Label("Age", "العمر") : @Html.DisplayFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
+            </p>
+        </div>
+        <div class="form-group">
+            <p>
+                @Html.Label("email", "البريد الالكتروني") : @Html.DisplayFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+            </p>
+        </div>
+        <div class="form-group">
+            <p>
+                @Html.Label("image", "الصورة الشخصية") : <img src="~/Content/Images/@Model.image" alt=" " style="max-height: 300px; max-width: 300px;">
+
+            </p>
+        </div>
+
+    </div>
+
+    @*@using (Html.BeginForm("ProfileEdit", "MyHome", new { id = Model.id }, FormMethod.Get))
+    {
+        <input type="submit" value="تعديل" class="btn" style="color: #283618" />
+    }*@
+
+    @Html.ActionLink("Edit profile", "ProfileEdit", new { id = Model.id })
+    @Html.ActionLink("Change password", "PasswordEdit", new { id = Model.id })
+
+</main>

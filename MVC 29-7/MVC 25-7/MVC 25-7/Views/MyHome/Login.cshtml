@@ -1,0 +1,49 @@
+﻿@model MVC_25_7.Models.NewUser
+
+@{
+    ViewBag.Title = "تسجيل دخول";
+
+}
+
+<main>
+
+    <h2 id="title">.@ViewBag.Title</h2>
+
+    <p>اهلا و سهلا بعودتك</p>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.userName)*@
+                @Html.Label("email", "البريد الالكتروني")
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", @placeholder = "ادخل اسم المستخدم" } })
+                    @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                    <small id="emailHelp" class="form-text text-muted">لن يتم مشاركة معلوماتك الشخصية مع جهة خارجية</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.LabelFor(model => model.password)*@
+                @Html.Label("userName", "كلمة السر")
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", @placeholder = "ادخل كلمة السر" } })
+                    @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <p>
+                لا تملك حساب؟ قم
+                <a href="@Url.Action("Signup", null, new { area = string.Empty, controller = "MyHome" }, Request.Url.Scheme)">بانشاء حساب جديد</a>
+            </p>
+            <input type="submit" value="تسجيل دخول" class="btn btn-dark" style="color: #283618" />
+
+        </div>
+    }
+
+</main>

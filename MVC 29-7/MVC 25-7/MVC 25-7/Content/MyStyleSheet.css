@@ -1,0 +1,120 @@
+﻿// <uniquifier > : Use a unique and descriptive class name
+// <weight > : Use a value from 400 to 700
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap');
+
+.noto-naskh-arabic-<uniquifier > {
+    font-family: "Noto Naskh Arabic", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #FEFAE0;
+    margin: 0;
+    padding: 0;
+    font-family: uniquifierti;
+}
+
+.navbar {
+    background-color: #FEFAE0 !important;
+}
+
+.navbar-nav {
+    align-items: center !important;
+}
+
+.navbar-brand {
+    display: block;
+    height: 70px;
+    width: 200px;
+    background-image: url('../../Content/images/Embroidery Hoop With Fabric And Sewing Needle With Inscription Fancywork Studio Modern Brand Logo.png') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-link, .navbar-toggler-icon {
+    color: black !important;
+}
+
+footer {
+    background-color: #283618;
+    color: #FEFAE0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerImg {
+    height: 70px;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: #fefae0;
+}
+
+img {
+    vertical-align: middle;
+    align-self: center;
+    width: 100% !important;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    justify-content: center;
+    margin: 10px;
+}
+
+main form {
+    width: 50% !important;
+}
+
+    main form > * {
+        margin: 7px !important;
+    }
+    main form input {
+        background-color: #FFFDED !important;
+        border: 1px solid #283618 !important;
+        border-radius: 15px !important;
+        padding: 5px 10px !important;
+    }
+
+a.bt.btn-outline-dark {
+    background-color: #FFFDED !important;
+}
+
+.col-md-10 {
+    width: 100% !important;
+}
+
+.form-group {
+    padding :0;
+}
+
+
+.card-columns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+
+    @include media-breakpoint-only(xl) {
+        column-count: 5;
+    }
+}
+
+span.color-circle {
+    display: inline-block !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    margin-right: 5px !important;
+}

@@ -1,0 +1,30 @@
+﻿@model List<mvc_5_review_13_8.Models.viewmodelTest>
+
+
+@{
+    ViewBag.Title = "addVM";
+}
+
+<main>
+
+    @using (Html.BeginForm())
+    {
+        <label for="image">image:</label>
+        <input type="text" name="image" />
+
+        <label for="name">name:</label>
+        <input type="text" name="name" />
+
+        <label for="price">price:</label>
+        <input type="number" name="price" />
+
+        <input type="submit" value="submit" />
+
+
+    }
+
+
+
+</main>
+
+

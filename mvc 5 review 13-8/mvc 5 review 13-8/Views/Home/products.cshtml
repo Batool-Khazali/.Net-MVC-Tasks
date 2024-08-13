@@ -1,0 +1,44 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "products";
+}
+
+<main style="display:flex; flex-wrap:wrap; ">
+
+
+    @foreach (var item in Model)
+    {
+
+        var itemString = String.Join(", ", item);
+        string[] itemArray = itemString.Split(',');
+
+        <div class="col-md-4 mb-3">
+            <div class="card" style="margin:10px;">
+
+                <img class="card-img-top" src="@itemArray[0]" alt=" " style="height: 300px;">
+
+                <div class="card-body">
+                    <p>@itemArray[1]</p>
+                    <p>@itemArray[2]</p>
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="button" value="Buy" class="btn" style="color: #283618" />
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    }
+
+
+</main>
+
+

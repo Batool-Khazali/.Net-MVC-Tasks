@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\addvm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\addvm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\productsvm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\productsvm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\models\\viewmodeltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\models\\viewmodeltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\productsdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\productsdb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|c:\\users\\orange\\desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\views\\home\\adddb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7AFFAF3-3C99-4B93-9C78-D42D72F30C7B}|mvc 5 review 13-8\\mvc 5 review 13-8.csproj|solutionrelative:mvc 5 review 13-8\\views\\home\\adddb.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "productsVM.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\productsVM.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\productsVM.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\productsVM.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\productsVM.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T19:39:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "addVM.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\addVM.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\addVM.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\addVM.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\addVM.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T19:39:10.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "viewmodelTest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Models\\viewmodelTest.cs",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Models\\viewmodelTest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Models\\viewmodelTest.cs",
+              "RelativeToolTip": "mvc 5 review 13-8\\Models\\viewmodelTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T19:26:20.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "productsDB.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\productsDB.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\productsDB.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\productsDB.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\productsDB.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T10:06:14.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "addDB.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\addDB.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\addDB.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\addDB.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\addDB.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T10:05:21.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "products.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\products.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\products.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\products.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\products.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T07:36:37.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\add.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Home\\add.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Home\\add.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Home\\add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T07:24:24.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "mvc 5 review 13-8\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAYwI8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T06:25:07.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "mvc 5 review 13-8\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\mvc 5 review 13-8\\mvc 5 review 13-8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "mvc 5 review 13-8\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-13T08:41:40.691Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

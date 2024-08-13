@@ -1,0 +1,44 @@
+﻿@model IEnumerable<mvc_5_review_13_8.Models.minimerce>
+
+@{
+    ViewBag.Title = "productsDB";
+}
+
+<h2>productsDB</h2>
+
+<p>
+    @Html.ActionLink("Create New", "addDB")
+</p>
+<main style="display:flex; flex-wrap:wrap; ">
+
+
+    @foreach (var item in Model)
+    {
+
+        <div class="col-md-4 mb-3">
+            <div class="card" style="margin:10px;">
+
+                <img class="card-img-top" src="@item.image" alt=" " style="height:300px;">
+
+                <div class="card-body">
+                    <p>@item.name</p>
+                    <p>@item.price</p>
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="button" value="Buy" class="btn" style="color: #283618" />
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    }
+
+
+</main>

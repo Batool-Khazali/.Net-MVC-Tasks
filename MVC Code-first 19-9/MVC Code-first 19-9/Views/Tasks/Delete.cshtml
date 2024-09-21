@@ -1,0 +1,95 @@
+﻿@model MVC_Code_first_19_9.Models.Tasks
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tasks</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.classe.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.classe.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subject.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            Due Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("Delete", "Tasks", FormMethod.Post, new { id = "deleteForm" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="button" value="Delete" class="btn btn-default" id="DeleteBtn" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+        $(document).ready(function () {
+            $('#DeleteBtn').on('click', function (e) {
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this! There might be subjects, students or tasks assocciated with it",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Yes, delete it!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                        });
+                        $('#deleteForm').submit(); // Submit the form
+                    }
+                });
+            });
+        });
+    </script>
+}

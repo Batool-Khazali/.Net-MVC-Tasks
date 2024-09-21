@@ -1,0 +1,501 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\tasks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\tasks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\tasks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\tasks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\models\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\classes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\classes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\subjects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\subjects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\subjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\subjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\models\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\classes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\classes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\classes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\classes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\classes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\classes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\subjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\subjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\models\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\models\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\views\\subjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\views\\subjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\models\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\models\\subjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\mvc code-first 19-9\\models\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AF9D3B-EEEB-42C4-894F-DB88452C35EC}|MVC Code-first 19-9\\MVC Code-first 19-9.csproj|solutionrelative:mvc code-first 19-9\\models\\mydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Tasks\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Delete.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Tasks\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:29:20.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Tasks\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Edit.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Tasks\\Edit.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvyoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:27:33.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Tasks\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Create.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Tasks\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:25:15.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:20:59.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswGUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:20:51.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Students\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Students\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwDcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:17:54.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvxwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:16:53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:15:46.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Students\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T13:13:32.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:09:15.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Classes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Delete.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Classes\\Delete.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T12:57:23.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Classes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Edit.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Classes\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T12:55:48.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Classes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Create.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Classes\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T12:34:41.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Classes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Details.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Classes\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T12:17:09.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Classes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Classes\\Index.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Classes\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T12:04:06.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Controllers\\ClassesController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswG0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:01:59.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Subjects\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Delete.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Subjects\\Delete.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T11:55:22.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Subjects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Edit.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Subjects\\Edit.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T11:47:06.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Subjects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Create.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Subjects\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T11:40:45.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Subjects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Details.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Subjects\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T11:37:35.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Subjects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Subjects\\Index.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Subjects\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T11:32:08.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\SubjectsController.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Controllers\\SubjectsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\SubjectsController.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Controllers\\SubjectsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwGIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T11:15:15.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:25:52.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tasks.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Tasks.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Models\\Tasks.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Tasks.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Models\\Tasks.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:58:19.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Students.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Models\\Students.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Students.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Models\\Students.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:57:27.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Classes.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Models\\Classes.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Classes.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Models\\Classes.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:56:17.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Subjects.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Subjects.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Models\\Subjects.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\Subjects.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Models\\Subjects.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:53:33.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:34:10.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC Code-first 19-9\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAI8AAAAAAAAAAADwv5UAAACTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T09:10:55.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyDb.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\MyDb.cs",
+              "RelativeDocumentMoniker": "MVC Code-first 19-9\\Models\\MyDb.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\tasks - clone\\MVC Code-first 19-9\\MVC Code-first 19-9\\Models\\MyDb.cs",
+              "RelativeToolTip": "MVC Code-first 19-9\\Models\\MyDb.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T19:13:38.285Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿@model MVC_Code_first_19_9.Models.Subjects
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div>
+    <h4>Subject</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+</div>
+
+<h4>Classes</h4>
+@if (Model.classe != null && Model.classe.Any())
+{
+    <ul>
+        @foreach (var classe in Model.classe)
+        {
+            <li>@classe.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No classes available for this subject.</p>
+}
+
+<h4>Tasks</h4>
+@if (Model.task != null && Model.task.Any())
+{
+    <ul>
+        @foreach (var task in Model.task)
+        {
+            <li>@task.Name</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No tasks available for this subject.</p>
+}
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

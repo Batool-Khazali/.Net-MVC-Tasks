@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <!-- Class Card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Classes</h5>
+                                    <p class="card-text">Check all classes.</p>
+                                    <div class="mt-auto">
+                                        <a href="@Url.Action("Index", "Classes")" class="btn btn-primary btn-sm">Add class</a>
+                                        <a href="@Url.Action("Create", "Classes")" class="btn btn-secondary btn-sm">Class list</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Subjects Card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card shadow-sm h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">Subjects</h5>
+                                    <p class="card-text">Check all subjects.</p>
+                                    <div class="mt-auto">
+                                        <a href="@Url.Action("Create", "Subjects")" class="btn btn-primary btn-sm">Add subject</a>
+                                        <a href="@Url.Action("Index", "Subjects")" class="btn btn-secondary btn-sm">Subjects list</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section style
+{
+    <style>
+        .h-custom {
+            height: calc(100vh - 80px); /* Adjusted height to fit sidebar layout */
+        }
+
+        .card {
+            border-radius: 10px; /* Rounded corners for a modern look */
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add subtle hover shadow */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .btn {
+            margin-right: 0.5em;
+        }
+
+        /* Responsive adjustments */
+        media (max-width: 768px) {
+            .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        media (max-width: 450px) {
+            .h-custom {
+                height: auto;
+            }
+
+            .card-body {
+                text-align: center;
+            }
+
+            .btn {
+                width: 100%;
+                margin-bottom: 0.5em;
+            }
+        }
+    </style>
+}

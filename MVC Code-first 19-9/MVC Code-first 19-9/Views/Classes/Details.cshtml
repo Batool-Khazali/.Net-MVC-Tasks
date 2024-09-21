@@ -1,0 +1,72 @@
+﻿@model MVC_Code_first_19_9.Models.Classes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <h4>Class Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+    @*<h5>Subjects</h5>
+    <ul>
+        @if (Model.SubjectClasses != null && Model.SubjectClasses.Any())
+        {
+            foreach (var subjectClass in Model.SubjectClasses)
+            {
+                @Html.ActionLink(subjectClass.Subject.Name, "Details", "Subjects", new { id = subjectClass.Subject.Id }, null)
+            }
+        }
+        else
+        {
+            <li>No Subjects Assigned</li>
+        }
+    </ul>*@
+
+    <h5>Tasks</h5>
+    <ul>
+        @if (Model.task != null && Model.task.Any())
+        {
+            foreach (var task in Model.task)
+            {
+                <li>
+                    @Html.ActionLink(task.Name, "Details", "Tasks", new { id = task.Id }, null)
+                </li>
+            }
+        }
+        else
+        {
+            <li>No Tasks Assigned</li>
+        }
+    </ul>
+
+    <h5>Students</h5>
+    <ul>
+        @if (Model.student != null && Model.student.Any())
+        {
+            foreach (var student in Model.student)
+            {
+                <li>
+                    @Html.ActionLink(student.Name, "Details", "Students", new { id = student.Id }, null)
+                </li>
+            }
+        }
+        else
+        {
+            <li>No Students Enrolled</li>
+        }
+    </ul>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

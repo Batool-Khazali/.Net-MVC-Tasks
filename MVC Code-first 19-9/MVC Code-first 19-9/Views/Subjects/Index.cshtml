@@ -1,0 +1,65 @@
+﻿@model IEnumerable<MVC_Code_first_19_9.Models.Subjects>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>Classes</th>
+        <th>Tasks</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @if (item.classe != null && item.classe.Any())
+                {
+                    <ul>
+                        @foreach (var classe in item.classe)
+                        {
+                            <li>@classe.Name</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>No classes available</p>
+                }
+            </td>
+            <td>
+                @if (item.task != null && item.task.Any())
+                {
+                    <ul>
+                        @foreach (var task in item.task)
+                        {
+                            <li>@task.Name</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>No tasks available</p>
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

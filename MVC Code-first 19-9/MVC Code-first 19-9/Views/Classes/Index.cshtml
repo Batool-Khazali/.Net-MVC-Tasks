@@ -1,0 +1,100 @@
+﻿@model IEnumerable<MVC_Code_first_19_9.Models.Classes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        @*<th>
+            Subjects
+        </th>*@
+        <th>
+            Tasks
+        </th>
+        <th>
+            Students
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            @*<td>
+                @if (item.subject != null && item.student.Any())
+                {
+                    @Html.ActionLink($"View Students ({item.subject.Count})", "Index", "Subject", new { classId = item.Id }, null)
+                }
+                else
+                {
+                <span>No Subjects</span>
+                }
+            </td>*@
+            <td>
+                @if (item.task != null && item.task.Any())
+                {
+                    @Html.ActionLink($"View Tasks ({item.task.Count})", "Index", "Tasks", new { classId = item.Id }, null)
+                }
+                else
+                {
+                    <span>No Tasks</span>
+                }
+            </td>
+            <td>
+                @if (item.student != null && item.student.Any())
+                {
+                    @Html.ActionLink($"View Students ({item.student.Count})", "Index", "Students", new { classId = item.Id }, null)
+                }
+                else
+                {
+                    <span>No Students</span>
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>
+
+<div class="row justify-content-center">
+    <!-- Class Card -->
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Students</h5>
+                <p class="card-text">Check all Students.</p>
+                <div class="mt-auto">
+                    <a href="@Url.Action("Index", "Students")" class="btn btn-primary btn-sm">Add Student</a>
+                    <a href="@Url.Action("Create", "Students")" class="btn btn-secondary btn-sm">Students list</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subjects Card -->
+    <div class="col-md-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tasks</h5>
+                <p class="card-text">Check all Tasks.</p>
+                <div class="mt-auto">
+                    <a href="@Url.Action("Create", "Tasks")" class="btn btn-primary btn-sm">Add Task</a>
+                    <a href="@Url.Action("Index", "Tasks")" class="btn btn-secondary btn-sm">Tasks list</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
